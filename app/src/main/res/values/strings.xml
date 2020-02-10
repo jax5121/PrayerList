@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Prayer List</string>
+    <string name="main_activity_add_prayer_button">Request</string>
+    <string name="prayer_request_summary">Summary</string>
+    <string name="prayer_request_text">Description</string>
+    <string name="prayer_request_add_button">Add</string>
+    <string name="prayer_request_label">Add Prayer Request</string>
 </resources>
