@@ -1,12 +1,7 @@
 package com.example.prayerlist
 
-class Prayer {
+import android.os.Parcelable
+import kotlinx.android.parcel.Parcelize
 
-    private var summary:String
-    private var description:String
-
-    constructor(summary:String, description:String) {
-        this.summary = summary
-        this.description = description
-    }
-}
+@Parcelize
+data class Prayer(val summary:String, val description: String): Parcelable
