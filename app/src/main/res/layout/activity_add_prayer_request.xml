@@ -19,8 +19,8 @@
 
     <EditText
         android:id="@+id/new_prayer_summary"
-        android:layout_width="336dp"
-        android:layout_height="46dp"
+        android:layout_width="400dp"
+        android:layout_height="45dp"
         android:layout_marginTop="64dp"
         android:autofillHints="@string/prayer_request_summary"
         android:ems="10"
@@ -34,8 +34,8 @@
     <EditText
         android:id="@+id/new_prayer_description"
         style="@style/Widget.AppCompat.AutoCompleteTextView"
-        android:layout_width="336dp"
-        android:layout_height="157dp"
+        android:layout_width="398dp"
+        android:layout_height="155dp"
         android:layout_marginTop="16dp"
         android:autofillHints="@string/prayer_request_text"
         android:ems="10"
